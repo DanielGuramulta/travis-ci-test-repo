@@ -7,7 +7,7 @@ script:
   - echo "Hello World"
 
 after_success:
-  - echo "After Succes!"
+  - ./ci/travis/post_manele.sh
 
 after_failure:
   - echo "After Failure!"
